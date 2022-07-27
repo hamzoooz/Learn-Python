@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content  %}
+
+<!-- <form method="GET"> -->
+<form method="POST">
+
+    {% csrf_token %}
+    
+    <input type="text" name="username" placeholder="user name ">
+    <br>
+    <br>
+    <input type="password" name="password"  placeholder="password" >
+    <br>
+    <br>
+    <input type="submit" value="Save">
+    <br>
+    <!-- <hr> -->
+
+</form>
+
+
+
+
+{% endblock content  %}
