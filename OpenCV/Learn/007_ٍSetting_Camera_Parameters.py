@@ -1,5 +1,6 @@
 import cv2 
-img = cv2.imread('images/hamzoooz.png' , 1)
+img = cv2.imread('images/hamzoooz.jpg' , 1)
+# img = cv2.VideoCapture(0)
 
 # Draw Line 
 img = cv2.line(img, (0, 0), (255, 255, ), (147, 96, 44), 10 )
